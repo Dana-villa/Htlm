@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudio Ghibli</title>
+</head>
+<body>
+    <header>
+        <h1>Estudio Ghibli</h1>
+        <p class="subtitle">El mundo mágico de la animación japonesa</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#peliculas">Películas</a></li>
+            <li><a href="#directores">Directores</a></li>
+            <li><a href="#estudio">El Estudio</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <section id="inicio">
+            <h2>¿Qué es el Estudio Ghibli?</h2>
+            <p>El Estudio Ghibli es un estudio de animación japonés fundado en 1985. Es famoso por sus películas animadas de alta calidad que cuentan historias emocionantes con personajes memorables.</p>
+            
+            <div class="imagen">
+                <img src="https://s3.amazonaws.com/rtvc-assets-parrilla.rtvc.gov.co/s3fs-public/howlsbg.png" alt="Castillo ambulante de Howl">
+                <p class="pie-imagen">El Castillo Ambulante - Una de las películas más famosas de Ghibli</p>
+            </div>
+            
+            <p>Las películas de Ghibli hablan sobre temas importantes como la amistad, la familia, la naturaleza y la valentía. Son disfrutadas por niños y adultos por igual.</p>
+        </section>
+        
+        <section id="peliculas">
+            <h2>Películas Más Famosas</h2>
+            <p>Estas son algunas de las películas más queridas del Estudio Ghibli:</p>
+            
+            <div class="peliculas">
+                <div class="pelicula">
+                    <h3>Mi Vecino Totoro</h3>
+                    <img src="https://i.ytimg.com/vi/PCpekfjA-xE/maxresdefault.jpg" width="700px" height="450px">
+                    <p><strong>Año:</strong> 1988</p>
+                    <p>Dos hermanas descubren criaturas mágicas en el bosque, incluyendo al adorable Totoro.</p>
+                </div>
+                
+                <div class="pelicula">
+                    <h3>El Viaje de Chihiro</h3>
+                    <img src="https://alfabetajuega.com/hero/2024/01/hiromasa-yonebayashi-ha-aclarado-uno-de-los-rumores-que-lo-relacionaban-con-el-sin-cara-en-el-viaje-de-chihiro.jpg?width=768&aspect_ratio=16:9&format=nowebp" width="700px" height="450px">
+                    <p><strong>Año:</strong> 2001</p>
+                    <p>Chihiro entra en un mundo de espíritus y debe trabajar para salvar a sus padres.</p>
+                </div>
+                
+                <div class="pelicula">
+                    <h3>El Castillo Ambulante</h3>
+                    <img src="https://s3.amazonaws.com/rtvc-assets-senalcolombia.gov.co/s3fs-public/field/image/studio-ghibli-castillo-vagabundo-sophie-howl-1280x720_0.jpg" width="700px" height="450px">
+                    <p><strong>Año:</strong> 2004</p>
+                    <p>Sophie busca ayuda del mago Howl después de que una bruja la convierte en anciana.</p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="directores">
+            <h2>Directores Principales</h2>
+            <p>Los creadores detrás de las películas de Ghibli:</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Película Famosas</th>
+                        <th>Año de Nacimiento</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Hayao Miyazaki</td>
+                        <td>Mi Vecino Totoro, El Viaje de Chihiro</td>
+                        <td>1941</td>
+                    </tr>
+                    <tr>
+                        <td>Isao Takahata</td>
+                        <td>La Tumba de las Luciérnagas, Pom Poko</td>
+                        <td>1935</td>
+                    </tr>
+                    <tr>
+                        <td>Yoshifumi Kondō</td>
+                        <td>Susurros del Corazón</td>
+                        <td>1950</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        
+        <section id="estudio">
+            <h2>Sobre el Estudio</h2>
+            <div class="imagen">
+                <img src="https://razonpublica.com/wp-content/uploads/2023/06/Totoro-nina-fenomeno-Miyazaki-Ana-Santiago-Ferreira.jpg" width="700px" height="550px">
+                <p class="pie-imagen">Totoro, el personaje más famoso de Ghibli</p>
+            </div>
+            
+            <h3>Datos Interesantes:</h3>
+            <ul style="margin-left: 20px; margin-top: 10px;">
+                <li>El estudio fue fundado en 1985</li>
+                <li>El nombre "Ghibli" viene de un viento del desierto</li>
+                <li>Tienen un museo en Tokio, Japón</li>
+                <li>El Viaje de Chihiro ganó un premio Óscar</li>
+            </ul>
+            
+            <h3 style="margin-top: 20px;">¿Dónde verlas?</h3>
+            <p>Puedes ver películas de Ghibli en plataformas como Netflix, HBO Max y comprando sus DVDs.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>2026 - Página creada por DK</p>
+    </footer>
+</body>
+</html>
