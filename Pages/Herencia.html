@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta>charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre el Estudio Ghibli</title>
+    <style>
+        .parent {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 200x;
+            background-color: #bc84c4;
+        }
+        #Totoro {
+            width: 400px;
+            height: 40px;
+            background-color: #a12b91;
+        }
+        #Chihiro {
+            height: 400px;
+            background-image: url('../Images/Chihiro.jpg');
+            background-size: contain;
+            background-repeat: repeat-x;  
+            background-position: top  
+        }
+        .child {
+            width: 100px;
+            height: 100px;
+            border: 1px solid #000;
+            background-image: linear-gradient(
+                to left,
+                black 0% 25%,
+                blue 25% 50%,
+                gold 50% 75%,
+                green 75% 100%,         red 100%
+            );
+        }
+        .lineal {
+            width: 300px;
+            height: 100px;
+            background-image: linear-gradient(to right, red, yellow, green);
+        }
+        .radial {
+            width: 300px;
+            height: 100px;
+            background-image: radial-gradient(circle, red, yellow, green);
+        }
+        .conico {
+            width: 300px;
+            height: 100px;
+            background-image: conic-gradient(to right, red, yellow, green);
+        }
+    </style>
+</head>    
+<body>
+    <div class="parent">
+        <div id="Totoro"></div>
+        <img src="../Images/vecino-totoro.webp" height="100"/>
+        <p>Dos hermanas descubren criaturas mágicas en el bosque, incluyendo al adorable Totoro.</p>
+        <div id="Chihiro"></div>
+        <img src="../Images/Chihiro.jpg" height="100"/>
+        <p>Chihiro entra en un mundo de espíritus y debe trabajar para salvar a sus padres.</p>
+    </div>
+    <div class="parent"></div>
+        <strong>Practica</strong>
+        <div id="lineal"></div>
+        <div id="radial"></div>
+        <div id="conico"></div>
+
+    <div class="parent">
+        <div class="child"></div>
+        <div class="child2"></div>
+    </div>        
+</body>
+
+
+
+<div class="container">
+    <h2>Sobre el Estudio</h2>
+    <div class="imagen">
+        <img src="../Images/Otra.jpg" height="400"/>
+    </div>
+    <style>
+        .imagen {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .imagen img {
+            border-radius: 10px;
+        }
+    </style>
+    <p>El Estudio Ghibli fue fundado en 1985 por Hayao Miyazaki e Isao Takahata. Es conocido por sus películas de animación de alta calidad que combinan historias profundas con una animación impresionante. El estudio ha ganado numerosos premios internacionales y es considerado uno de los mejores estudios de animación del mundo.</p>
