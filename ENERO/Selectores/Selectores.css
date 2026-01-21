@@ -1,0 +1,19 @@
+.bode {
+    borde: 2px solid #add8e6;
+}
+.fondo {
+    background-color: #f0e68c;
+}
+.tamaño {
+    width: 100px;
+    height: 100px;
+}
+.borde.fondo.tamano {
+    color: crimson;
+}
+a[href^="https://"]::after {
+    content: "(Página no segura):"attr(href);
+}
+a[href$=".pdf"]::before {
+    content: url("../img/pdf.png");
+}
